@@ -1,0 +1,48 @@
+.hero-section {
+    background:  no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .services-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .service-card {
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f2f2f2;
+    transition: transform 0.3s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #0056b3;
+  }
+  
+  .testimonials-section {
+    padding: 60px 0;
+    background-color: #f2f2f2;
+  }
+  
